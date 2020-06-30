@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">test101</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="versionNum">1.0.4</string>
+    <string name="version">رقم الإصدار</string>
+    <string name="rate">تقييم التطبيق</string>
+    <string name="followUs">تابعنا</string>
+    <string name="about">عن التطبيق</string>
+    <string name="conditions">الشروط والأحكام</string>
+    <string name="language">اللغه</string>
+    <string name="ComputerScienceEngineering">هندسه علوم الحاسب</string>
+    <string name="InOutSystem">نظام الحضور والإنصراف</string>
+    <string name="enterIdentityNum">أدخل رقم التعريف</string>
+    <string name="confirm">تأكيد</string>
+    <string name="confirm_msg">لقد تم إرسال رمز التفعيل عن طريق رسالة نصيه. من فضلك أدخل الرمز وقم بالضغط على تأكيد</string>
+    <string name="mobileNum">رقم الهاتف</string>
+    <string name="LogIn">تسجيل الدخول</string>
+    <string name="KuwaitCode">+965</string>
+</resources>
