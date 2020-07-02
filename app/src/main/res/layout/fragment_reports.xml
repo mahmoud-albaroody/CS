@@ -28,10 +28,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
+            android:fontFamily="@font/tajawal_regular"
             android:text="يونيو 2020 "
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:fontFamily="@font/tajawal_regular"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -48,16 +48,17 @@
             app:layout_constraintTop_toTopOf="@+id/textView" />
 
         <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
             android:layout_marginTop="16dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
             app:spanCount="2"
             tools:itemCount="6"
-            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-            tools:listitem="@layout/item_sixth_fragament"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            tools:listitem="@layout/item_sixth_fragament" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
