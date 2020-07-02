@@ -9,11 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ForthActivityMain"></activity>
+        <activity android:name=".ui.LaterActivity"></activity>
+        <activity android:name=".ui.AbsenceActivity" />
+        <activity android:name=".ui.HomeActivity" />
         <activity android:name=".ThirdActivity" />
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".FirstActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ui.VerificationCodeActivity" />
+        <activity android:name=".ui.RegistrationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -6,29 +6,30 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.test101.R
-import com.example.test101.models.ReportsModel
-import kotlinx.android.synthetic.main.item_reports_fragament.view.*
+import com.example.test101.models.AbsenceModel
+import kotlinx.android.synthetic.main.item_absence.view.*
+
 
 class AbsenceAdapter(private val mActivity: Activity,
-                     private val reportsList: ArrayList<ReportsModel>) :
+                     private val absenceList: ArrayList<AbsenceModel>) :
         RecyclerView.Adapter<AbsenceAdapter.ViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder =
             ViewHolder(LayoutInflater.from(mActivity)
-                    .inflate(R.layout.item_reports_fragament, parent, false))
+                    .inflate(R.layout.item_absence, parent, false))
 
 
-    override fun getItemCount(): Int = reportsList.size
+    override fun getItemCount(): Int = absenceList.size
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.tvItemReport.text = reportsList[position].tvItemReport
-        holder.tvItemTime.text = reportsList[position].tvItemTime
+        holder.day.text = absenceList[position].day
+        holder.date.text = absenceList[position].date
     }
 
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val tvItemReport = view.tv_item_report!!
-        val tvItemTime = view.tv_item_time!!
+        val day = view.day!!
+        val date = view.date!!
     }
 }

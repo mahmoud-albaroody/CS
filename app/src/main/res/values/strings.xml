@@ -18,4 +18,5 @@
     <string name="mobileNum">رقم الهاتف</string>
     <string name="LogIn">تسجيل الدخول</string>
     <string name="KuwaitCode">+965</string>
+    <string name="wrong_mobile_num">Mobile number is not correct</string>
 </resources>

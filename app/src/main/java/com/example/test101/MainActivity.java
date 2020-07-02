@@ -1,11 +1,10 @@
-package com.example.test101.ui;
+package com.example.test101;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.test101.R;
 import com.example.test101.ui.RegistrationActivity;
 
 public class MainActivity extends AppCompatActivity {

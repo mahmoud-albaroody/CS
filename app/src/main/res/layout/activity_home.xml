@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ForthActivityMain">
+    tools:context=".ui.HomeActivity">
 
     <FrameLayout
         android:id="@+id/mainFragment"
@@ -15,12 +15,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <fragment
-            android:id="@+id/navHostFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-        <!--        app:defaultNavHost="true"-->
-        <!--        app:navGraph="@navigation/nav_graph"-->
 
     </FrameLayout>
 

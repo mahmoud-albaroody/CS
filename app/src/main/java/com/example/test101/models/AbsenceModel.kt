@@ -1,4 +1,6 @@
 package com.example.test101.models
 
-class AbsenceModel {
-}
+data class AbsenceModel (
+        val day: String,
+        val date: String
+)

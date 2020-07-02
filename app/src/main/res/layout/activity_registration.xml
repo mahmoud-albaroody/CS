@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context=".SecondActivity">
+    tools:context=".ui.RegistrationActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
             android:fontFamily="@font/tajawal_regular"
             android:text="@string/ComputerScienceEngineering"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/iv_kuwaity_second" />
@@ -45,14 +45,14 @@
             android:text="@string/InOutSystem"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="25sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_computerScienceEngineering_second" />
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/text_input_extension_mobileNum"
+            android:id="@+id/mobile_num_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -73,6 +73,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_InOutSystem_second" />
 
+
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_login"
             android:layout_width="0dp"
@@ -86,9 +88,9 @@
             android:text="@string/LogIn"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/text_input_extension_mobileNum"
-            app:layout_constraintStart_toStartOf="@+id/text_input_extension_mobileNum"
-            app:layout_constraintTop_toBottomOf="@+id/text_input_extension_mobileNum"
+            app:layout_constraintEnd_toEndOf="@+id/mobile_num_et"
+            app:layout_constraintStart_toStartOf="@+id/mobile_num_et"
+            app:layout_constraintTop_toBottomOf="@+id/mobile_num_et"
             app:layout_constraintVertical_bias="0.19999999" />
 
 
@@ -103,9 +105,9 @@
             android:textColor="@color/material_green_800"
             android:textSize="15sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/text_input_extension_mobileNum"
-            app:layout_constraintStart_toStartOf="@+id/text_input_extension_mobileNum"
-            app:layout_constraintTop_toTopOf="@+id/text_input_extension_mobileNum" />
+            app:layout_constraintBottom_toBottomOf="@+id/mobile_num_et"
+            app:layout_constraintStart_toStartOf="@+id/mobile_num_et"
+            app:layout_constraintTop_toTopOf="@+id/mobile_num_et" />
 
         <View
             android:layout_width="1dp"
@@ -114,8 +116,8 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:background="@color/gray1"
-            app:layout_constraintBottom_toBottomOf="@+id/text_input_extension_mobileNum"
+            app:layout_constraintBottom_toBottomOf="@+id/mobile_num_et"
             app:layout_constraintStart_toEndOf="@+id/tv_kuwaitCode"
-            app:layout_constraintTop_toTopOf="@+id/text_input_extension_mobileNum" />
+            app:layout_constraintTop_toTopOf="@+id/mobile_num_et" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
